@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Coffee Shop</title>
+</head>
+<body>
+    
+    <header>
+        <div class="main-head">
+            <h1>Coffee Shop</h1>
+        </div>
+        
+    </header>
+    <div class="prices">
+        <div class="sub-head">
+            <h2>Prices</h2>
+        </div>
+        <table>
+            <tr>
+              <th>Product/Addon</th>
+              <th>Milk</th>
+              <th>Cream</th>
+              <th>Latte</th>
+            </tr>
+            <tr>
+              <td>Espresso</td>
+              <td>60</td>
+              <td>75</td>
+              <td>100</td>
+            </tr>
+            <tr>
+              <td>Cappuccino</td>
+              <td>80</td>
+              <td>90</td>
+              <td>125</td>
+            </tr>
+            <tr>
+              <td>Latte</td>
+              <td>100</td>
+              <td>125</td>
+              <td>150</td>
+            </tr>
+          </table>
+    </div>
+      
+
+    <div class="content">
+        <div class="input-area">
+            <form>
+                <label for="drinks">Choose a Drink:</label>
+                <select name="drinks" id="drinks">
+                    <option value="espresso">Espresso</option>
+                    <option value="cappuccino">Cappuccino</option>
+                    <option value="latte">Latte</option>
+                </select>
+                <br>
+                <input type="checkbox" id="milk" name="addon" value="milk">
+                <label for="milk"> Milk</label><br>
+                <input type="checkbox" id="cream" name="addon" value="cream">
+                <label for="cream">Cream </label><br>
+                <input type="checkbox" id="latte" name="addon" value="latte">
+                <label for="latte"> Latte</label><br>
+                <label  id="label-quant" for="quantity">Quantity:</label>
+                <input type="number" name="quantity" id="quantity">
+                <br><br>
+                <button id="order">order</button>
+            </form>
+        </div>
+
+        <div class="bill-area">
+            <h2>Bill Amount:</h2>
+
+        </div>
+    </div>
+
+
+    
+</body>
+</html>

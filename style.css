@@ -1,0 +1,73 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+body {
+    margin:5%;
+    background-color: #f7efef;
+}
+
+.prices{
+    padding:2%;
+    margin:0 auto;
+    width: 80%;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+.content {
+    display: flex;
+}
+
+.input-area {
+    flex:1;
+    border:2px solid lightgreen;
+    height:40vh;
+    padding:2%;
+    font-size:x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.input-area select {
+    padding:10px;
+}
+.input-area button {
+    padding:20px;
+    width:50%;
+    font-size: 1.5rem;
+    background-color: lightskyblue;
+    border-style: none;
+}
+.input-area #quantity {
+    padding:5px;
+    
+}
+
+.bill-area {
+    flex:1;
+    padding:2%;
+    text-align: center;
+    border:2px solid lightgreen;
+}
